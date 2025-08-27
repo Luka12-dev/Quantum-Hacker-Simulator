@@ -1,0 +1,28 @@
+## System Requirements
+
+### Minimum Requirements
+- **OS:** Windows 10 / 11 (64-bit)  
+- **CPU:** Intel Core i3 / AMD Ryzen 3 or equivalent  
+- **RAM:** 4 GB  
+- **GPU:** Integrated graphics sufficient (PyQt6 GUI, no heavy 3D)  
+- **Storage:** 200 MB free space  
+- **Python:** 3.10+  
+- **Dependencies:** 
+  - PyQt6
+  - NumPy
+
+### Recommended Requirements
+- **OS:** Windows 10 / 11 (64-bit)  
+- **CPU:** Intel Core i5 / AMD Ryzen 5 or better  
+- **RAM:** 8 GB+  
+- **GPU:** Dedicated graphics card (optional, improves rendering smoothness)  
+- **Storage:** 500 MB free space  
+- **Python:** 3.10+  
+- **Dependencies:** 
+  - PyQt6
+  - NumPy
+
+### Notes
+- The application runs **standalone** if built with PyInstaller `.exe`.  
+- On Windows, the `.exe` will include all dependencies, so Python installation is **not required** for end users.  
+- For best performance, use recommended specs when running multiple circuits or high hint depth.

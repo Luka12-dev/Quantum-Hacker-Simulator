@@ -1,0 +1,31 @@
+# Quantum Hacker Simulator – Hints
+
+### Level: Tutorial – Single qubit H -> |1>
+- Hint 1: Apply a Hadamard (H) gate to the qubit to create superposition.
+- Hint 2: Measure the qubit after H gate – probabilities are 50% |0>, 50% |1>.
+- Full Hint: Apply H, then apply X gate to flip the state to |1> if needed.
+
+### Level: Bell pair – Create entanglement
+- Hint 1: Start with two qubits in |00>.
+- Hint 2: Apply H gate to the first qubit.
+- Hint 3: Apply a CNOT with first qubit as control and second as target.
+- Full Hint: H on qubit 0, then CNOT(0,1) → results in entangled |Φ+> state.
+
+### Level: Superposition race
+- Hint 1: Identify which qubits need superposition.
+- Hint 2: Use H gates to put them in superposition.
+- Hint 3: Step through sequence to reach target state.
+- Full Hint: Apply H gates in proper order to all necessary qubits, then run measurement.
+
+### Level: Custom random 2-qubit
+- Hint 1: Analyze the target state carefully.
+- Hint 2: Consider applying H, X, or Z gates to each qubit.
+- Hint 3: Remember CNOT for entanglement.
+- Full Hint: Try combinations of H, X, Z, and CNOT until your sequence matches the target.
+
+### General Tips
+- Undo and Redo buttons help explore sequences safely.
+- Use "Hint" button for next-step guidance.
+- Auto-hint option in Settings will suggest the next move automatically.
+- Save circuits often to avoid losing progress.
+- Randomize level to practice different scenarios.
